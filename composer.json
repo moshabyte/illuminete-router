@@ -1,0 +1,22 @@
+{
+    "name": "illuminete/router",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Illuminete\\Router\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Illuminete\\Router\\RouterServiceProvider"
+            ],
+            "aliases": {
+              
+            }
+        }
+    }
+}
